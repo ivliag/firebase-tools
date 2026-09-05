@@ -1,3 +1,4 @@
 - Updated the Firebase SQL Connect local toolkit to v3.4.19, which includes the following changes:
   - [fixed] Bug fixes and performance improvements for the PostgreSQL emulator.
 - [fixed] Clean up managed service accounts when all functions in a codebase are deleted.
+- [fixed] Retry IAM policy updates on replication lag and concurrency conflicts.
