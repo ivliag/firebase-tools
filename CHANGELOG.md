@@ -2,3 +2,4 @@
   - [fixed] Bug fixes and performance improvements for the PostgreSQL emulator.
 - [fixed] Clean up managed service accounts when all functions in a codebase are deleted.
 - [fixed] Retry IAM policy updates on replication lag and concurrency conflicts.
+- [fixed] Prevent deadlock and stale source tokens during Cloud Functions deployment retries.
